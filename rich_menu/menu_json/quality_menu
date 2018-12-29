@@ -1,0 +1,62 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 843
+  },
+  "selected": true,
+  "name": "quality_menu",
+  "chatBarText": "查看更多資訊",
+  "areas": [
+    {
+      "bounds": {
+        "x": 8,
+        "y": 80,
+        "width": 539,
+        "height": 686
+      },
+      "action": {
+        "type": "uri",
+        "uri":"https://ff6d7ebf.ngrok.io/quality_introduction"
+      }
+    },
+    {
+      "bounds": {
+        "x": 831,
+        "y": 271,
+        "width": 372,
+        "height": 445
+      },
+      "action": {
+        "type": "postback",
+        "text": "上傳照片",
+        "data": "type=quality&do=upload_picture"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1352,
+        "y": 271,
+        "width": 411,
+        "height": 449
+      },
+      "action": {
+        "type": "postback",
+        "text": "品質反饋",
+        "data": "type=quality&do=feedback"
+      }
+    },
+    {
+      "bounds": {
+        "x": 2042,
+        "y": 165,
+        "width": 208,
+        "height": 666
+      },
+      "action": {
+        "type": "postback",
+        "text": "回主頁",
+        "data": "type=link&where=home_page"
+      }
+    }
+  ]
+}

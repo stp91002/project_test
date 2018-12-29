@@ -1,0 +1,76 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 843
+  },
+  "selected": true,
+  "name": "query_menu",
+  "chatBarText": "查看更多資訊",
+  "areas": [
+    {
+      "bounds": {
+        "x": 229,
+        "y": 237,
+        "width": 470,
+        "height": 530
+      },
+      "action": {
+        "type": "postback",
+        "text": "我是誰",
+        "data": "type=query&do=who_am_i"
+      }
+    },
+    {
+      "bounds": {
+        "x": 826,
+        "y": 263,
+        "width": 390,
+        "height": 466
+      },
+      "action": {
+        "type": "postback",
+        "text": "現有資產",
+        "data": "type=query&do=how_much_i_have"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1347,
+        "y": 289,
+        "width": 398,
+        "height": 432
+      },
+      "action": {
+        "type": "postback",
+        "text": "交易明細",
+        "data": "type=query&do=detail"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1835,
+        "y": 186,
+        "width": 568,
+        "height": 221
+      },
+      "action": {
+        "type": "postback",
+        "text": "回購買",
+        "data": "type=link&where=shopping_page"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1847,
+        "y": 534,
+        "width": 568,
+        "height": 250
+      },
+      "action": {
+        "type": "postback",
+        "text": "回販售",
+        "data": "type=link&where=selling_page"
+      }
+    }
+  ]
+}

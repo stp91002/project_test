@@ -1,0 +1,63 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 843
+  },
+  "selected": true,
+  "name": "general_menu",
+  "chatBarText": "查看更多資訊",
+  "areas": [
+    {
+      "bounds": {
+        "x": 166,
+        "y": 217,
+        "width": 466,
+        "height": 541
+      },
+      "action": {
+        "type": "postback",
+        "text": "功能簡介",
+        "data": "type=introduction"
+      }
+    },
+    {
+      "bounds": {
+        "x": 838,
+        "y": 153,
+        "width": 301,
+        "height": 677
+      },
+      "action": {
+        "type": "postback",
+        "text": "我要買",
+        "data": "type=link&where=shopping_page"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1390,
+        "y": 140,
+        "width": 310,
+        "height": 694
+      },
+      "action": {
+        "type": "postback",
+        "text": "我要賣",
+        "data": "type=link&where=selling_page"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1886,
+        "y": 275,
+        "width": 402,
+        "height": 445
+      },
+      "action": {
+        "type": "postback",
+        "text": "品質鑑定",
+        "data": "type=link&where=quality_page"
+      }
+    }
+  ]
+}

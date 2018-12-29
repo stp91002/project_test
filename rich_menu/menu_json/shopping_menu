@@ -1,0 +1,62 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 843
+  },
+  "selected": true,
+  "name": "menu_for_shopping",
+  "chatBarText": "查看更多資訊",
+  "areas": [
+    {
+      "bounds": {
+        "x": 212,
+        "y": 225,
+        "width": 462,
+        "height": 529
+      },
+      "action": {
+        "type": "postback",
+        "text": "狀態查詢",
+        "data": "type=link&where=query_page&from=shopping"
+      }
+    },
+    {
+      "bounds": {
+        "x": 843,
+        "y": 169,
+        "width": 280,
+        "height": 653
+      },
+      "action": {
+        "type": "postback",
+        "text": "買什麼",
+        "data": "type=product_menu&from=shopping"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1403,
+        "y": 157,
+        "width": 288,
+        "height": 674
+      },
+      "action": {
+        "type": "uri",
+        "uri":"https://www.google.com.tw/"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1970,
+        "y": 165,
+        "width": 280,
+        "height": 666
+      },
+      "action": {
+        "type": "postback",
+        "text": "回主頁",
+        "data": "type=link&where=home_page"
+      }
+    }
+  ]
+}
